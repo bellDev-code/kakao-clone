@@ -2,6 +2,9 @@
   <head>
     <title>Home - My first Website.</title>
     <style>
+      * {
+        border: 2px dashed black;
+      }
       html {
         background-color: tomato;
       }
@@ -12,26 +15,30 @@
       }
       div {
         padding: 10px;
+        border: solid 2px black;
       }
       #first {
         background-color: whitesmoke;
-        height: 150px;
-        width: 150px;
-      }
-      #second {
-        background-color: teal;
-        height: 130px;
-        width: 130px;
-      }
-      #third {
-        background-color: orange;
         height: 100px;
         width: 100px;
       }
-      #fourth {
-        background-color: orchid;
+      #second {
+        background-color: teal;
+        height: 90px;
+        width: 90px;
+      }
+      #third {
+        background-color: orange;
         height: 80px;
         width: 80px;
+      }
+      #fourth {
+        background-color: orchid;
+        height: 70px;
+        width: 70px;
+      }
+      span {
+        border: 1px dotted black;
       }
     </style>
   </head>
@@ -39,7 +46,9 @@
     <div id="first">
       <div id="second">
         <div id="third">
-          <div id="fourth"></div>
+          <div id="fourth">
+            <span>hello</span>
+          </div>
         </div>
       </div>
     </div>
