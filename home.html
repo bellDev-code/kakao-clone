@@ -7,21 +7,26 @@
         margin: 50px;
       }
       span {
-        background-color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
       }
-      span:nth-child(odd) {
-        background-color: teal;
+
+      div > span {
+        text-decoration: underline;
+      }
+      p + span {
+        color: white;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+        excepturi nostrum <span>tempora</span>
+      </p>
+      <span>hello</span>
+    </div>
   </body>
 </html>
