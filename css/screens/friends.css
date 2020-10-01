@@ -1,0 +1,12 @@
+#fridends-display-link {
+  text-align: center;
+  width: 100%;
+  display: block;
+  background-color: #fafafa;
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+#fridends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
